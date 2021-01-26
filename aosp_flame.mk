@@ -69,6 +69,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
 
+PRODUCT_PACKAGES += Vpn Tchat FDroid SimpleFileManager
+
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := Android
 PRODUCT_NAME := aosp_flame

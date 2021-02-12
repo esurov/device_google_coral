@@ -69,7 +69,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
 
-PRODUCT_PACKAGES += Vpn Chat FDroid
+PRODUCT_PACKAGES += Vpn Chat FDroid EmeraldDialer
+PRODUCT_PACKAGES -= Dialer
 
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := Android
